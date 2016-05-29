@@ -10,5 +10,5 @@ use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
 $app->get('/home', function(Request $request, Response $response) {
-    return 'Home';
+    return $this->view->render($response, 'home.twig');
 });
