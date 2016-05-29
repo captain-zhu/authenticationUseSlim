@@ -1,0 +1,12 @@
+{
+    "name": "zhuyongxuan1/authentication",
+    "require": {
+        "slim/slim": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "captain-zhu",
+            "email": "andypaker@qq.com"
+        }
+    ]
+}
